@@ -18,6 +18,10 @@ enableRobotsTXT = true
   enableGlobalLanguageMenu = true
 
 
+  [params.logo]
+    logoText = "ALazyMeme"
+    logoHomeLink = "/"
+
   [params.portrait]
     path = "/img/avatar.png"
     alt = "Avatar"
