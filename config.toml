@@ -16,6 +16,10 @@ menu = "streaming"
   disableReadOtherPosts = false
   enableSharingButtons = false
 
+  [params.portrait]
+    path = "/img/avatar.png"
+    alt = "Avatar"
+
   [[params.social]]
     name = "github"
     url = "https://github.com/ALazyMeme"
