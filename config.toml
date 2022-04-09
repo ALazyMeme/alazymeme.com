@@ -3,7 +3,7 @@ title = "ALazyMeme"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 paginate = 10
-copyright = "&copy; ALazyMeme. Reserve deez nutz."
+copyright = "&copy; ALazyMeme. All rights reserved."
 enableEmoji = true
 enableGitInfo = true
 
