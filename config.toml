@@ -44,6 +44,12 @@ paginate = 10
       logoText = "ALazyMeme"
       logoHomeLink = "/"
 
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name       = "Home"
+    url        = "/"
+
   [[menu.main]]
     identifier = "streaming"
     name       = "Streaming Tips"
