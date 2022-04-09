@@ -10,11 +10,6 @@ enableRobotsTXT = true
   name = "ALazyMeme"
 
 [params]
-  dateform = "Jan 2, 2006"
-  dateformShort = "Jan 2"
-  dateformNum = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
-
   disableReadOtherPosts = false
   enableSharingButtons = false
 
@@ -22,7 +17,7 @@ enableRobotsTXT = true
     copyright = true
     author = true
     trademark = true
-    rss = false
+    rss = true
 
   [params.logo]
     logoText = "ALazyMeme"
