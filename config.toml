@@ -3,10 +3,8 @@ title = "ALazyMeme"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 paginate = 10
-copyright = "&copy; ALazyMeme. All rights reserved."
 enableEmoji = true
 enableRobotsTXT = true
-menu = "streaming"
 
 [params]
   dateform        = "Jan 2, 2006"
