@@ -6,9 +6,6 @@ paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
 
-[blackfriday]
-  hrefTargetBlank = true
-
 [author]
   name = "ALazyMeme"
 
