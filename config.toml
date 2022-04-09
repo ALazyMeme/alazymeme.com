@@ -16,6 +16,7 @@ enableRobotsTXT = true
   [params.footer]
     copyright = true
     author = true
+    trademark = true
 
   [params.logo]
     logoText = "ALazyMeme"
