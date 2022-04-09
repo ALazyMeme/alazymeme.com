@@ -23,6 +23,11 @@ enableRobotsTXT = true
     author = true
     trademark = true
 
+    topText = []
+    bottomText = [
+      "Website made by ALazyMeme. All rights reserved."
+    ]
+
   [params.logo]
     logoText = "ALazyMeme"
     logoHomeLink = "/"
