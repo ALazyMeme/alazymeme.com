@@ -19,7 +19,6 @@ enableRobotsTXT = true
 
   [params.footer]
     trademark = true
-    rss = true
     copyright = true
     author = true
 
