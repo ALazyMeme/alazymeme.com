@@ -12,7 +12,6 @@ enableRobotsTXT = true
 [params]
   disableReadOtherPosts = false
   enableSharingButtons = false
-  enableGlobalLanguageMenu = true
 
   [params.footer]
     copyright = true
