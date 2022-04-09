@@ -22,11 +22,7 @@ enableRobotsTXT = true
     copyright = true
     author = true
     trademark = true
-
-    topText = []
-    bottomText = [
-      "Website made by ALazyMeme. All rights reserved."
-    ]
+    rss = false
 
   [params.logo]
     logoText = "ALazyMeme"
