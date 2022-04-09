@@ -6,6 +6,9 @@ paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
 
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
