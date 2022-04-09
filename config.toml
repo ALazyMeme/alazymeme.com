@@ -15,7 +15,6 @@ enableRobotsTXT = true
   enableGlobalLanguageMenu = true
 
   [params.footer]
-    trademark = true
     copyright = true
     author = true
 
