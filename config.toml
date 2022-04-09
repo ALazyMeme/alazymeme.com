@@ -3,6 +3,9 @@ title = "ALazyMeme"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 paginate = 10
+copyright = "&copy; ALazyMeme. Reserve deez nutz."
+enableEmoji = true
+enableGitInfo = true
 
 [params]
   dateform        = "Jan 2, 2006"
