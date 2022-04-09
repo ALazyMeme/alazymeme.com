@@ -46,14 +46,6 @@ enableRobotsTXT = true
     name = "youtube"
     url = "https://www.youtube.com/c/alazymeme"
 
-[languages]
-  [languages.en]
-    title = "ALazyMeme"
-
-    [languages.en.params.logo]
-      logoText = "ALazyMeme"
-      logoHomeLink = "/"
-
 [menu]
   [[menu.main]]
     identifier = "home"
