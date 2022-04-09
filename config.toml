@@ -17,6 +17,11 @@ enableRobotsTXT = true
   enableSharingButtons = false
   enableGlobalLanguageMenu = true
 
+  [params.footer]
+    trademark = true
+    rss = true
+    copyright = true
+    author = true
 
   [params.logo]
     logoText = "ALazyMeme"
