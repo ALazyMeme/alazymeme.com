@@ -5,15 +5,11 @@ theme = "hello-friend-ng"
 paginate = 10
 
 [params]
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
-
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "red"
+  
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
 
 [languages]
   [languages.en]
