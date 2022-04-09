@@ -14,9 +14,9 @@ enableRobotsTXT = true
   enableSharingButtons = false
 
   [params.footer]
+    trademark = true
     copyright = true
     author = true
-    trademark = true
 
   [params.logo]
     logoText = "ALazyMeme"
