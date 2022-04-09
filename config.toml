@@ -5,7 +5,6 @@ theme = "hello-friend-ng"
 paginate = 10
 copyright = "&copy; ALazyMeme. All rights reserved."
 enableEmoji = true
-enableGitInfo = true
 
 [params]
   dateform        = "Jan 2, 2006"
