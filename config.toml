@@ -57,10 +57,10 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     identifier = "home"
-    name       = "Home"
-    url        = "/"
+    name = "Home"
+    url = "/"
 
   [[menu.main]]
     identifier = "bot"
-    name       = "Twitch Bot"
-    url        = "https://bot.alazymeme.com"
+    name = "Twitch Bot"
+    url = "https://bot.alazymeme.com"
