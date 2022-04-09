@@ -5,28 +5,48 @@ theme = "hello-friend-ng"
 paginate = 10
 
 [params]
-  themeColor = "red"
-  showMenuItems = 2
-  info = "Hello"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+  disableReadOtherPosts = false
+  enableSharingButtons = false
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/ALazyMeme"
+
+  [[params.social]]
+    name = "reddit"
+    url = "https://www.reddit.com/user/alazymeme"
+
+  [[params.social]]
+    name = "steam"
+    url = "https://steamcommunity.com/id/alazymeme"
+
+  [[params.social]]
+    name = "twitch"
+    url = "https://twitch.tv/alazymeme"
+
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/alazymeme"
+
+  [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/c/alazymeme"
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
+    title = "ALazyMeme"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "ALazyMeme"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
 
-  # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+    identifier = "streaming"
+    name       = "Streaming Tips"
+    url        = "/streaming"
+
+  
