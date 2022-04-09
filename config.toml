@@ -6,6 +6,7 @@ paginate = 10
 copyright = "&copy; ALazyMeme. All rights reserved."
 enableEmoji = true
 enableRobotsTXT = true
+menu = "streaming"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -52,11 +53,6 @@ enableRobotsTXT = true
     identifier = "home"
     name       = "Home"
     url        = "/"
-
-  [[menu.main]]
-    identifier = "streaming"
-    name       = "Streaming Tips"
-    url        = "/streaming"
 
   [[menu.main]]
     identifier = "bot"
