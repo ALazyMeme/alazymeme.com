@@ -1,6 +1,6 @@
 baseURL = "/"
 title = "ALazyMeme"
-languageCode = "en-us"
+languageCode = "en-au"
 theme = "hello-friend-ng"
 paginate = 10
 enableEmoji = true
