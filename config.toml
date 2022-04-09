@@ -5,11 +5,9 @@ theme = "hello-friend-ng"
 paginate = 10
 
 [params]
-  # ["orange", "blue", "red", "green", "pink"]
   themeColor = "red"
-  
-  # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
+  info = "Hello"
 
 [languages]
   [languages.en]
