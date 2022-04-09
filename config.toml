@@ -49,4 +49,7 @@ paginate = 10
     name       = "Streaming Tips"
     url        = "/streaming"
 
-  
+  [[menu.main]]
+    identifier = "bot"
+    name       = "Twitch Bot"
+    url        = "https://bot.alazymeme.com"
