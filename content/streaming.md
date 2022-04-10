@@ -6,11 +6,11 @@ type: page
 ---
 <script>
     function calculate() {
-        let width = document.getElementById("width").value;
-        let height = document.getElementById("height").value;
-        let fps = document.getElementById("fps").value;
-        let bpp = document.getElementById("bpp").value;
-        document.getElementById("result").innerHTML = (width * height * fps * bpp) / 1000;
+        width = document.getElementById("width").value;
+        height = document.getElementById("height").value;
+        fps = document.getElementById("fps").value;
+        bpp = document.getElementById("bpp").value;
+        document.getElementById("result").innerHTML = (width*height*fps*bpp)/1000;
     }
 </script>
 
@@ -23,14 +23,14 @@ Therefore, for variety casters, **900p60 @ 6000kbps** is popular as this results
 
 (width x height x framerate x bpp) / 1000 = bitrate in kbps
 
-<form id="bitrateCalculator">
-    <label for="width">Width: </label><input type="number" id="width" name="width" placeholder="1600" minlength="3" maxlength="4" required><br>
-    <label for="height">Height: </label><input type="number" id="height" name="height" placeholder="900" minlength="3" maxlength="4" required><br>
-    <label for="fps">FPS: </label><input type="fps" id="fps" name="fps" placeholder="60" minlength="2" maxlength="2" required><br>
-    <label for="bpp">BPP: </label><input type="number" id="bpp" name="bpp" placeholder="0.1"  step="0.01" required><br>
-    <input type="submit" value="Calculate" onClick="calculate();"><br>
-    Result: <span id="result"></span> mbps
+<form>
+    <label for="width">Width: </label><input type="number" id="width" name="width" placeholder="1600" minlength="3" maxlength="4" required /><br>
+    <label for="height">Height: </label><input type="number" id="height" name="height" placeholder="900" minlength="3" maxlength="4" required /><br>
+    <label for="fps">FPS: </label><input type="fps" id="fps" name="fps" placeholder="60" minlength="2" maxlength="2" required /><br>
+    <label for="bpp">BPP: </label><input type="number" id="bpp" name="bpp" placeholder="0.1"  step="0.01" required /><br>
+    <input type="submit" value="Calculate" onClick="calculate();" /><br>
 </form>
+Result: <span id="result">0</span> kbps
 
 ## How it Works
 There is sometimes misconception with new streamers regarding what uses the GPU and CPU. In all cases, streaming software always uses both; regardless if you use hardware encoding (like NVENC, AMD, or QSV) or software encoding (x264). Hardware encoding uses dedicated hardware on the GPU or CPU to encode frames, that is seperate from normal GPU or CPU usage, not influencing the normal activity of those devices. Software encoding uses the normal CPU computational power to encode the received frames. So why does streaming software still need the "normal" CPU and GPU when using hardware encoding?
