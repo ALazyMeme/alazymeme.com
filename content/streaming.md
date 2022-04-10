@@ -28,7 +28,7 @@ Therefore, for variety casters, **900p60 @ 6000kbps** is popular as this results
     <label for="height">Height: </label><input type="number" id="height" name="height" placeholder="900" minlength="3" maxlength="4" required><br>
     <label for="fps">FPS: </label><input type="fps" id="fps" name="fps" placeholder="60" minlength="2" maxlength="2" required><br>
     <label for="bpp">BPP: </label><input type="number" id="bpp" name="bpp" placeholder="0.1"  step="0.01" required><br>
-    <input type="number" id="result" name="result" placeholder="Calculated Bitrate" disabled> mbps
+    <input type="submit" value="Calculate" onClick="calculate();"><input type="number" id="result" name="result" placeholder="Calculated Bitrate" disabled> mbps
 </form>
 
 ## How it Works
