@@ -6,11 +6,13 @@ type: page
 ---
 <script>
     function calculate() {
-        width = document.getElementById("width").value;
-        height = document.getElementById("height").value;
-        fps = document.getElementById("fps").value;
-        bpp = document.getElementById("bpp").value;
-        document.getElementById("result").innerHTML = (width*height*fps*bpp)/1000;
+        span = document.getElementById("result");
+        width = parseInt(document.getElementById("width").value);
+        height = parseInt(document.getElementById("height").value);
+        fps = parseInt(document.getElementById("fps").value);
+        bpp = parseInt(document.getElementById("bpp").value);
+        result = String((width*height*fps*bpp)/1000);
+        spam.innerText = result;
     }
 </script>
 
