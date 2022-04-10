@@ -25,13 +25,11 @@ Therefore, for variety casters, **900p60 @ 6000kbps** is popular as this results
 
 (width x height x framerate x bpp) / 1000 = bitrate in kbps
 
-<form>
-    <label for="width">Width: </label><input type="number" id="width" name="width" placeholder="1600" minlength="3" maxlength="4" required /><br>
-    <label for="height">Height: </label><input type="number" id="height" name="height" placeholder="900" minlength="3" maxlength="4" required /><br>
-    <label for="fps">FPS: </label><input type="fps" id="fps" name="fps" placeholder="60" minlength="2" maxlength="2" required /><br>
-    <label for="bpp">BPP: </label><input type="number" id="bpp" name="bpp" placeholder="0.1"  step="0.01" required /><br>
-    <input type="submit" value="Calculate" onClick="calculate();" /><br>
-</form>
+<label for="width">Width: </label><input type="number" id="width" name="width" placeholder="1600" minlength="3" maxlength="4" required /><br>
+<label for="height">Height: </label><input type="number" id="height" name="height" placeholder="900" minlength="3" maxlength="4" required /><br>
+<label for="fps">FPS: </label><input type="fps" id="fps" name="fps" placeholder="60" minlength="2" maxlength="2" required /><br>
+<label for="bpp">BPP: </label><input type="number" id="bpp" name="bpp" placeholder="0.1"  step="0.01" required /><br>
+<input type="submit" value="Calculate" onClick="calculate();" /><br>
 Result: <span id="result"></span> kbps
 
 ## How it Works
