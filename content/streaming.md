@@ -6,12 +6,12 @@ type: page
 ---
 <script>
     function calculate() {
-        let span = document.getElementById("result").value;
         let width = document.getElementById("width").value;
         let height = document.getElementById("height").value;
         let fps = document.getElementById("fps").value;
         let bpp = document.getElementById("bpp").value;
         let result = String((width*height*fps*bpp)/1000);
+        let span = document.getElementById("result");
         span.innerText = result;
     }
 </script>
