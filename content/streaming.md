@@ -31,7 +31,7 @@ type: page
             return
         }
 
-        let result = String((width*height*fps*bpp)/1000);
+        let result = String(Math.round((width*height*fps*bpp)/1000));
         let span = document.getElementById("result");
         span.innerText = result;
     }
