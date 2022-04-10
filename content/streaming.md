@@ -4,6 +4,18 @@ date: 2022-04-09T20:24:37+10:00
 draft: false
 type: page
 ---
+<script>
+    function calculate() {
+        let width = document.getElementById("width");
+        let height = document.getElementbyId("height");
+        let fps = document.getElementbyId("fps");
+        let bpp = document.getElementbyId("bpp");
+        let span = document.getElementById("result");
+        document.getElementById("result").innerHTML = (width * height * fps * bpp) / 1000;
+        let text = "Invalid Inputs! Please fix and try again.";
+    }
+</script>
+
 ## Rough Bitrate Calculator
 This rough calculator is based on the so called 'bit per pixel' or 'bpp' value that allows one calculate the bitrate based upon this value. Where at the **0.1 bpp** is the highest value to be used, as anything above will result in diminishing return and basically wasting bandwidth. **0.05 bpp** should be considered the lowest value and rarely one should go below it for **gameplay**.
 
@@ -18,8 +30,8 @@ Therefore, for variety casters, **900p60 @ 6000kbps** is popular as this results
     <label for="height">Height: </label><input type="number" id="height" name="height" placeholder="900" minlength="3" maxlength="4" required><br>
     <label for="fps">FPS: </label><input type="fps" id="fps" name="fps" placeholder="60" minlength="2" maxlength="2" required><br>
     <label for="bpp">BPP: </label><input type="number" id="bpp" name="bpp" placeholder="0.1"  step="0.01" required><br>
-    <input type="submit" value="Calculate">
-    <input type="text" id="result" name="result" placeholder="Calculated Bitrate" disabled=""> mbps
+    <button onClick="calculate();" type="button">Calculate</button>
+    <span id="result" placeholder="Calculated Bitrate"></span> mbps
 </form>
 
 ## How it Works
