@@ -6,10 +6,10 @@ type: page
 ---
 <script>
     function calculate() {
-        let width = Number(document.getElementById("width").value);
-        let height = Number(document.getElementById("height").value);
-        let fps = Number(document.getElementById("fps").value);
-        let bpp = Number(document.getElementById("bpp").value);
+        let width = document.getElementById("width").value;
+        let height = document.getElementById("height").value;
+        let fps = document.getElementById("fps").value;
+        let bpp = document.getElementById("bpp").value;
 
         if (width < 1280 || width.length > 4) {
             return
