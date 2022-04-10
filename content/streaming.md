@@ -9,7 +9,7 @@ type: page
         let width = document.getElementById("width");
         let height = document.getElementbyId("height");
         let fps = document.getElementbyId("fps");
-        let bpp = document.getElementbyId("bpp");
+        let bpp = document.getElementById("bpp");
         let span = document.getElementById("result");
         document.getElementById("result").innerHTML = (width * height * fps * bpp) / 1000;
 
