@@ -12,7 +12,7 @@ type: page
         let fps = document.getElementById("fps");
         let bpp = document.getElementById("bpp");
         let result = String((width*height*fps*bpp)/1000);
-        spam.innerText = result;
+        span.innerText = result;
     }
 </script>
 
