@@ -6,7 +6,6 @@ paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
 buildDrafts = true
-sectionPagesMenu = "main"
 
 [author]
   name = "ALazyMeme"
