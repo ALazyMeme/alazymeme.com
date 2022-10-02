@@ -1,5 +1,5 @@
 ---
-title: "Paris, France"
+title: Paris, France
 draft: true
 ---
 

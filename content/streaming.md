@@ -1,5 +1,5 @@
 ---
-title: "Streaming Tips"
+title: Streaming Tips
 type: page
 ---
 <script>

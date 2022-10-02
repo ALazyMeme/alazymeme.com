@@ -1,5 +1,5 @@
 ---
-title: "Luxembourg City, Luxembourg"
+title: Luxembourg City, Luxembourg
 draft: true
 ---
 
