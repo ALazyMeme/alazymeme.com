@@ -1,6 +1,7 @@
 ---
 title: Streaming Tips
 type: page
+draft: false
 ---
 <script>
     function calculate() {
