@@ -5,6 +5,7 @@ theme = "hello-friend-ng"
 paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
+buildDrafts = true
 
 [author]
   name = "ALazyMeme"
