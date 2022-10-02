@@ -13,26 +13,26 @@ logoHomeLink = "/"
 path = "/img/avatar.png"
 alt = "Avatar"
 
-[social]
+[[social]]
 name = "github"
 url = "https://github.com/ALazyMeme"
 
-[social]
+[[social]]
 name = "reddit"
 url = "https://www.reddit.com/user/alazymeme"
 
-[social]
+[[social]]
 name = "steam"
 url = "https://steamcommunity.com/id/alazymeme"
 
-[social]
+[[social]]
 name = "twitch"
 url = "https://twitch.tv/alazymeme"
 
-[social]
+[[social]]
 name = "twitter"
 url = "https://twitter.com/alazymeme"
 
-[social]
+[[social]]
 name = "youtube"
 url = "https://www.youtube.com/c/alazymeme"
