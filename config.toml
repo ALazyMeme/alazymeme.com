@@ -65,6 +65,7 @@ buildDrafts = true
     identifier = "holidays"
     name = "Holidays"
     weight = 3
+    url = "#"
 
   [[menu.main]]
     identifier = "bot"
