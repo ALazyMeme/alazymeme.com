@@ -1,9 +1,0 @@
-baseURL = "/"
-title = "ALazyMeme"
-languageCode = "en-au"
-theme = "hello-friend-ng"
-enableRobotsTXT = true
-buildDrafts = true
-
-[author]
-  name = "ALazyMeme"
