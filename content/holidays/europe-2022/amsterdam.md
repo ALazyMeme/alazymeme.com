@@ -1,6 +1,6 @@
 ---
 title: Amsterdam, Netherlands
 draft: true
-tags: [holidays, europe-2022]
+tags: [europe-2022]
 ---
 
