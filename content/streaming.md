@@ -37,7 +37,7 @@ type: page
     }
 </script>
 
-## Rough Bitrate Calculator
+## Rough Bitrate Calculator 😬
 This rough calculator is based on the so called 'bit per pixel' or 'bpp' value that allows one calculate the bitrate based upon this value. Where at the **0.1 bpp** is the highest value to be used, as anything above will result in diminishing return and basically wasting bandwidth. **0.05 bpp** should be considered the lowest value and rarely one should go below it for **gameplay**.
 
 For variety casting, one does generally not want to go below **0.07 bpp** as this takes a wide variety of games into account that a variety caster can play and contains possible high motion gameplay, flashy vfx, foliage, or high detailed footage. Lower motion games, like HeartStone and simple platformers, can have a lower value to still look good, and creative casters can even go lower. If you see a lot of artifacting (blocky video), especially on movement, it means you have too little bitrate for the encode to look clean and should increase the bitrate.
