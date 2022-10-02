@@ -1,3 +1,5 @@
+enableSharingButtons = true
+
 [footer]
 trademark = true
 copyright = true

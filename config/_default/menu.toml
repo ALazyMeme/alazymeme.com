@@ -9,6 +9,11 @@ name = "Streaming Tips"
 url = "streaming"
 
 [[main]]
+identifier = "holidays"
+name = "Holidays"
+url = "holidays
+
+[[main]]
 identifier = "bot"
 name = "Twitch Bot"
 url = "https://bot.alazymeme.com"

@@ -2,7 +2,6 @@ baseURL = "/"
 title = "ALazyMeme"
 languageCode = "en-au"
 theme = "hello-friend-ng"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = true
 
