@@ -2,6 +2,8 @@
 title: Europe 2022
 linkTitle: Europe 2022
 type: page
+tags:
+  - holidays
 menu:
   main:
     parent: holidays
