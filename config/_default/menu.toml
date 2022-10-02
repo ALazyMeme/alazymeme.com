@@ -18,6 +18,7 @@ identifier = "europe 2022"
 name = "Europe 2022"
 url = "europe 2022"
 parent = "holidays"
+type = "section"
 
 [[main]]
 identifier = "bot"
