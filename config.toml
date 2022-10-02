@@ -59,6 +59,7 @@ buildDrafts = true
     identifier = "streaming"
     name = "Streaming Tips"
     weight = 2
+    url = "/streaming/"
 
   [[menu.main]]
     identifier = "holidays"
