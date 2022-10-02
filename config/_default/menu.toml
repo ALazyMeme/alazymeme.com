@@ -1,19 +1,25 @@
-[[main]]
+[main]
 identifier = "home"
 name = "Home"
 url = "/"
 
-[[main]]
+[main]
 identifier = "streaming"
 name = "Streaming Tips"
 url = "streaming"
 
-[[main]]
+[main]
 identifier = "holidays"
 name = "Holidays"
 url = "holidays"
 
-[[main]]
+[main]
+identifier = "europe 2022"
+name = "Europe 2022"
+url = "europe 2022"
+parent = "holidays"
+
+[main]
 identifier = "bot"
 name = "Twitch Bot"
 url = "https://bot.alazymeme.com"
