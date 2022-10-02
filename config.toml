@@ -65,11 +65,6 @@ buildDrafts = true
     url = "holidays"
 
   [[menu.main]]
-    identifier = "europe 2022"
-    name = "Europe 2022"
-    url = "europe 2022"
-
-  [[menu.main]]
     identifier = "bot"
     name = "Twitch Bot"
     url = "https://bot.alazymeme.com"
