@@ -10,7 +10,6 @@ buildDrafts = true
 
 [params]
   enableSharingButtons = true
-  enableGlobalLanguageMenu = true
 
   [params.footer]
     trademark = true
