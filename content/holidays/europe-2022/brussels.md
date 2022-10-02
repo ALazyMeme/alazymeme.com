@@ -1,7 +1,6 @@
 ---
 title: Brussels, Belgium
 draft: true
-tags:
-  - europe-2022
+tags: [holidays, europe-2022]
 ---
 
