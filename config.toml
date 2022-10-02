@@ -66,12 +66,6 @@ buildDrafts = true
     weight = 3
 
   [[menu.main]]
-    identifier = "europe-2022"
-    name = "Europe 2022"
-    weight = 30
-    parent = "holidays"
-
-  [[menu.main]]
     identifier = "bot"
     name = "Twitch Bot"
     url = "https://bot.alazymeme.com"
